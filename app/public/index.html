@@ -38,5 +38,14 @@
       })
     })
     </script>
+    <script>
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      $(".zoom img").css({
+      width: (100 + scroll/25)  + "%",
+      top: -(scroll/10)  + "%",
+      });
+      });
+    </script>
   </body>
 </html>
