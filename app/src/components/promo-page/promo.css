@@ -1,4 +1,37 @@
+.promo-section {
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+}
+
+.promo-container {
+  width: 100%;
+}
+
+.promo-headings {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.promo-subheadings {
+  font-weight: medium;
+  font-size: 36px;
+}
+
+.promo-row {
+  padding: 3em;
+}
+
 .side-image {
-  max-width: 28rem;
-  max-height: 15rem;
+  max-width: 37rem;
+  max-height: 17rem;
+}
+
+.promo-image {
+  max-width: 8rem;
+  max-height: 8rem;
+}
+
+.promo-image-truck {
+  max-width: 11rem;
+  max-height: 11rem;
 }
