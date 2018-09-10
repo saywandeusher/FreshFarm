@@ -6,8 +6,8 @@ export default class Promo extends Component {
   render() {
     return ( 
       <section className="promo-section">
-      <div className="container promo-container">
-      <div className="row promo-row">
+      <div className="container">
+      <div className="row">
           <div className="col s6 ">
             <div className="promo-headings">FRESH FOOD FOR A FRESHER YOU</div>
             <div className="promo-subheadings">Quailty food, quailty life.</div>

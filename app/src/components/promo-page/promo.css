@@ -1,10 +1,14 @@
 .promo-section {
-  padding-top: 8rem;
-  padding-bottom: 1rem;
+  padding-top: 7rem; 
 }
 
-.promo-container {
+.promo-section .container {
   width: 100%;
+}
+
+.promo-section .row {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .promo-headings {
@@ -15,10 +19,6 @@
 .promo-subheadings {
   font-weight: medium;
   font-size: 36px;
-}
-
-.promo-row {
-  padding: 3em;
 }
 
 .side-image {
