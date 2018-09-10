@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Intro from './components/intro/intro'
 import Nav from './components/nav/nav'
+import Intro from './components/intro/intro'
+import Promo from './components/promo-page/promo'
 
 export default class App extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class App extends Component {
       </header>,
 
       <main>
-
+        <Promo />
       </main>,
 
       <footer>

@@ -14,8 +14,8 @@ export default class Nav extends Component {
               <div className="col s4">
                   <form>
                      <input type="text" placeholder="Search for a product or brand" className="searchbox" />
-                     <button class="btn blue darken-2 search-button" type="submit" name="action">
-                      <i class="material-icons">search</i>
+                     <button className="btn blue darken-2 search-button" type="submit" name="action">
+                      <i className="material-icons">search</i>
                      </button>
                   </form>
               </div>
