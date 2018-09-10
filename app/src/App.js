@@ -15,10 +15,7 @@ export default class App extends Component {
 
       <main>
         <Promo />
-      </main>,
-
-      <footer>
-      </footer>
+      </main>
     ]
     );
   }
