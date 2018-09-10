@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Nav from './components/nav/nav'
 import Intro from './components/intro/intro'
-import Promo from './components/promo-page/promo'
+import Promo from './components/promo/promo'
+import Shopping from './components/shopping/shopping'
 
 export default class App extends Component {
   render() {
@@ -15,6 +16,7 @@ export default class App extends Component {
 
       <main>
         <Promo />
+        <Shopping />
       </main>
     ]
     );

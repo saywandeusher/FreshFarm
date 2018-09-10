@@ -1,0 +1,47 @@
+.shopping-section {
+  height: 100%;
+  width: 100%;
+}
+
+.shopping-section .container {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+}
+
+.shopping-section .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.shopping-section .sidebar {
+  background-color: rgb(234, 238, 239);
+  height: 47rem;
+}
+
+.shopping-section .shopping-content {
+  background-color: rgb(244, 244, 244);
+}
+
+.shopping-container {
+  padding: 2rem 0rem 2rem 6rem;
+}
+
+.shoppingimages {
+  max-width: 16rem;
+  max-height: 16rem;
+  border-radius: 25px;
+}
+
+.shoppingimages-title {
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(75, 75, 75);
+}
+
+.shoppingimages-subtitle {
+  font-weight: bold;
+  font-size: 21px;
+  color: rgb(102, 102, 102);
+}

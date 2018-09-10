@@ -13,7 +13,7 @@ export default class Promo extends Component {
             <div className="promo-subheadings">Quailty food, quailty life.</div>
           </div>
           <div className="col s6 center">
-          <img src={require('../../images/Screen 2/Side image.png')} alt="side_image" className="side-image" />
+            <img src={require('../../images/Screen 2/Side image.png')} alt="side_image" className="side-image" />
           </div>
         </div>
 
