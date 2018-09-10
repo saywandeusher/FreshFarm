@@ -3,7 +3,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Helvetica Neue'!important;
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 section {

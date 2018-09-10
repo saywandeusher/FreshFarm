@@ -4,6 +4,9 @@ nav {
   height: 12%;
   width: 100%;
   background-color: white;
+  box-shadow: none;
+  border-bottom: rgba(111, 111, 111, 0.7) solid;
+  border-width: 2.5px;
 }
 
 nav .container {
