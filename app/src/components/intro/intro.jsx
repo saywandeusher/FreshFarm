@@ -8,7 +8,7 @@ export default class Intro extends Component {
         <div className="container"> 
           <div className="row">
             <div className="col s12">
-
+              <h1>Hello World!</h1>
             </div>
           </div>
         </div>
