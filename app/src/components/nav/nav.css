@@ -1,0 +1,33 @@
+nav {
+  height: 100%;
+  background-color: white;
+}
+
+.nav_container {
+  width: 90%;
+  height: 6rem;
+}
+
+.nav_row {
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+.FarmFresh-img {
+  max-width: 15rem;
+  max-height: 12rem;
+}
+
+.searchbox {
+  width: 80% !important;
+  border: 1px solid #9e9e9e !important;
+}
+
+.search-button {
+  height:100%;
+}
+
+.cart-img {
+  max-width: 4rem;
+  max-height: 4rem;
+}
