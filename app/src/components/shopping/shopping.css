@@ -18,6 +18,23 @@
 .shopping-section .sidebar {
   background-color: rgb(234, 238, 239);
   height: 47rem;
+  padding: 0;
+}
+
+.side-bar {
+  padding-top: 1rem;
+}
+
+.side-bar a {
+  padding: 15px 8px 8px 35px;
+  text-decoration: none;
+  font-size: 21px;
+  color: #818181;
+  display: block;
+}
+
+.side-bar a:hover {
+  background-color: rgb(202, 202, 202);
 }
 
 .shopping-section .shopping-content {

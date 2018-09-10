@@ -9,8 +9,13 @@ export default class Shopping extends Component {
       <div className="container">
       <div className="row">
         <div className="col s2 sidebar">
-        <ul className="side-nav">
-          <li><a href="#!">On Sales!</a></li>
+        <ul className="side-bar">
+          <li><a href="#!" className="dropbtn" onClick="myFunction()">On Sales!</a></li>
+            <ul id='myDropdown' class='dropdown-content'>
+              <li><a href="#!">Latest</a></li>
+              <li><a href="#!">Past Offers</a></li>
+              <li><a href="#!">Future Offers</a></li>
+            </ul>
           <li><a href="#!">New</a></li>
           <li><a href="#!">Shop by Store</a></li>
           <li><a href="#!">Fruits & Veg</a></li>
