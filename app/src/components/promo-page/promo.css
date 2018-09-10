@@ -1,5 +1,6 @@
 .promo-section {
-  padding-top: 7rem; 
+  padding-top: 7rem;
+  transition: .5s;
 }
 
 .promo-section .container {

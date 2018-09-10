@@ -27,5 +27,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- Parallax JS -->
     <script>$(document).ready(function(){ $('.parallax').parallax();});</script>
+    <script>
+    $(document).ready(function(){
+       $(window).scroll(function(){
+        if($(this).scrollTop() > 400){
+          $(".promo-section").css({"opacity" : "1"})
+        }else{
+          $(".promo-section").css({"opacity" : "0"})
+        }   
+      })
+    })
+    </script>
   </body>
 </html>
